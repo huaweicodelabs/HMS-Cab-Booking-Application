@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Huawei Map</string>
+    <string name="pickup_loc">Enter pick location</string>
+    <string name="drop_loc">Enter drop location</string>
+    <string name="car_model_name">White Maruti Suzuki Dzire Tour</string>
+    <string name="cab_number">Cab Number</string>
+    <string name="bookingType">Daily</string>
+    <string name="drivername">Driver</string>
+    <string name="access_needed">Access Permission Needed</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="hourly_package">Hourly Package</string>
+    <string name="text">text</string>
+    <string name="channel_human_readable_title">Channel human readable title</string>
+    <string name="error_message_source_destination_is_needed">Please enter the pick up and drop location</string>
+    <string name="dialog_booking_title">Do you want to confirm the booking?</string>
+    <string name="confirm">Confirm</string>
+    <string name="no">No</string>
+    <string name="Car_Name">Maruthi Ciaz</string>
+    <string name="otp">OTP: 3579</string>
+    <string name="one_hour_ten_kms">1 hr 10 km</string>
+    <string name="two_hour_twenry_kms">2 hrs 20 km</string>
+    <string name="four_hour_fouty_kms">4 hrs 40 km</string>
+    <string name="six_hour_sixty_kms">6 hrs 60 km</string>
+    <string name="eight_hours_eighty_kms">8 hrs 80 km</string>
+    <string name="ten_hours_hundred_kms">10 hrs 100 km</string>
+    <string name="your_ride_is_here">Your ride is here.</string>
+    <string name="no_result">0 results</string>
+    <string name="notification_message_body">Car No: TN 38 AZ 1001. </string>
+    <string name="notification_message_ride_on_the_way">Your ride is on the way.</string>
+    <string name="thanks_message">You reached your destination. Thanks for riding with us</string>
+    <string name="destination_reached_message">You reached your destination</string>
+    <string name="thanks_title">Hi, Thanks for riding with us</string>
+    <string name="error_message_cab_not_available_your_location">Sorry, Cab not available on your current location. Please try again later.</string>
+</resources>

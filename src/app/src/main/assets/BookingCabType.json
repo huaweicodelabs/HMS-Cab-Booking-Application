@@ -1,0 +1,55 @@
+[{
+	"BookingType_Id": "101",
+	"BookingType": "Daily",
+	"Cabtype": [{
+			"cab_id": "1",
+			"cab_type": "Mini",
+			"cab_seats": "4",
+			"booking_type": "Daily"
+		},
+		{
+			"cab_id": "2",
+			"cab_type": "Sedan",
+			"cab_seats": "5",
+			"booking_type": "Daily"
+		},
+		{
+			"cab_id": "3",
+			"cab_type": "SUV",
+			"cab_seats": "6",
+			"booking_type": "Daily"
+		}
+	]
+}, {
+	"BookingType_Id": "102",
+	"BookingType": "Rental",
+	"Cabtype": [{
+			"cab_id": "2",
+			"cab_type": "Sedan",
+			"cab_seats": "5",
+			"booking_type": "Rental"
+		}
+	]
+}, {
+	"BookingType_Id": "103",
+	"BookingType": "Outstation",
+	"Cabtype": [{
+			"cab_id": "1",
+			"cab_type": "Mini",
+			"cab_seats": "4",
+			"booking_type": "Outstation"
+		},
+		{
+			"cab_id": "2",
+			"cab_type": "Sedan",
+			"cab_seats": "5",
+			"booking_type": "Outstation"
+		},
+		{
+			"cab_id": "3",
+			"cab_type": "SUV",
+			"cab_seats": "6",
+			"booking_type": "Outstation"
+		}
+	]
+}]
