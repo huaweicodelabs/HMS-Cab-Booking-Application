@@ -18,15 +18,10 @@
 buildscript {
     ext.kotlin_version = "1.4.10"
     repositories {
-        if (project.hasProperty('CI')) {
-            mavenLocal()
-            maven { url 'https://developer.huawei.com/repo/' }
-            maven { url 'http://szg1.artifactory.inhuawei.com/artifactory/sz-maven-public/' }
-
-        } else {
-            maven { url 'https://developer.huawei.com/repo/' }
-            maven { url 'http://szg1.artifactory.inhuawei.com/artifactory/sz-maven-public/' }
-        }
+        google()
+        mavenCentral()
+        // Configure the Maven repository address for the HMS Core SDK.
+        maven {url 'https://developer.huawei.com/repo/'}
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.1"
@@ -39,19 +34,10 @@ buildscript {
 
 allprojects {
     repositories {
-        if (project.hasProperty('CI')) {
-            mavenLocal()
-            maven {url 'https://developer.huawei.com/repo/'}
-            maven { url 'http://szg1.artifactory.inhuawei.com/artifactory/sz-maven-public/' }
-            maven { url 'http://szg1.artifactory.inhuawei.com/artifactory/Product-cloudserviceSDK-release/' }
-
-
-        } else {
-            maven {url 'https://developer.huawei.com/repo/'}
-            maven { url 'http://szg1.artifactory.inhuawei.com/artifactory/sz-maven-public/' }
-            maven { url 'http://10.62.233.85:8081/nexus/content/groups/public/' }
-            maven { url 'http://szg1.artifactory.inhuawei.com/artifactory/Product-cloudserviceSDK-release/' }
-        }
+        google()
+        mavenCentral()
+        // Configure the Maven repository address for the HMS Core SDK.
+        maven {url 'https://developer.huawei.com/repo/'}
     }
 }
 
